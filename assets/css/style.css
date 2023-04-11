@@ -846,3 +846,22 @@ p {
   height: 30px;
   margin-left: 29px;
 }
+@media(max-width:980px) {
+  #Contact {
+    padding: 1rem .8rem;
+    background-color: #f2f2f2;
+  }
+  .contact-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  .contact-left{
+    padding-bottom: 20px;
+    width: 90%;
+  }
+  .contact-form{
+    width: 20rem;
+  }
+}
