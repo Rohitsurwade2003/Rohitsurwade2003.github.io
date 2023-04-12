@@ -869,24 +869,24 @@ p {
   width: 80px;
   height: 80px;
   position: absolute;
-  top: 5rem;
-  right: 20rem;
+  top: 6rem;
+  right: 22rem;
 }
 
 .react-img {
   width: 80px;
   height: 80px;
   position: absolute;
-  top: 9rem;
-  right: 2rem;
+  top: 11rem;
+  right: 4rem;
 }
 
 .js-img {
   width: 80px;
   height: 80px;
   position: absolute;
-  top: 20rem;
-  right: 18rem;
+  top: 23rem;
+  right: 20rem;
 }
 
 @media(max-width:580px) {
