@@ -865,3 +865,71 @@ p {
     width: 20rem;
   }
 }
+.html-img {
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  top: 5rem;
+  right: 20rem;
+}
+
+.react-img {
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  top: 9rem;
+  right: 2rem;
+}
+
+.js-img {
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  top: 20rem;
+  right: 18rem;
+}
+
+@media(max-width:580px) {
+  .html-img {
+    width: 60px;
+    height: 60px;
+    top: 3rem;
+    right: 16rem;
+  }
+
+  .react-img {
+    width: 60px;
+    height: 60px;
+    top: 7rem;
+    right: 2rem;
+  }
+
+  .js-img {
+    width: 60px;
+    height: 60px;
+    top: 14rem;
+    right: 16rem;
+  }
+}
+
+
+.floating {
+  animation-name: floating;
+  animation-duration: 2.5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes floating {
+  0% {
+    transform: translate(0, 0px);
+  }
+
+  50% {
+    transform: translate(0, 8px);
+  }
+
+  100% {
+    transform: translate(0, -0px);
+  }
+}
