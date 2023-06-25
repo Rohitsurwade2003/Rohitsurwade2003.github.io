@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="main.js"></script>
+
+    <!-- <script type="text/javascript">
+        $(document).ready(function() {
+            $('.left-box').animate({left: '0', opacity: '1'}, 1000);
+            $('.right-box').animate({right: '0', opacity: '1'}, 1000);
+          });
+    </script> -->
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <title>RohitSurwade</title>
+</head>
+
+<body>
+    <main>
+        <section>
+            <div class="container">
+                <div class="left-box">
+                    <div class="text-box">
+                        <h1>Bringing your ideas<br> to life through<br> Front-end </h1>
+                        <button class="btn">Hire Me! 👋</button>
+                    </div>
+                    <div class="bottom-box">
+                        <div class="box-cards" style="background-color: #00c39a;">
+                            <h1>2+</h1>
+                            <p>Years Experience</p>
+                        </div>
+                        <div class="box-cards" style="background-color: #ffc03c;">
+                            <h1 style="color:#1e1b1e">12+</h1>
+                            <p style="color:#1e1b1e">Handled Projects</p>
+                        </div>
+                        <div class="box-cards" style="background-color: #fe6d79;">
+                            <h1>5+</h1>
+                            <p>Clients</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="right-box">
+                    <div class="header">
+                        <div class="heading">
+                            <h6>Rohit </h6>
+                            <p>Surwade</p>
+                        </div>
+                        <span class="material-symbols-outlined">
+                            menu
+                        </span>
+                    </div>
+                    <div class="info">
+                        <div class="left-img">
+                            <img src="/assets/profile.jpg" alt="hero-img">
+                        </div>
+                        <div class="right-info">
+                            <div class="name">
+                                <p>Name:</p>
+                                <h6>Rohit Surwade</h6>
+                            </div>
+                            <div class="address">
+                                <div class="text">
+                                    <p> Based on :</p>
+                                    <h6>Boisar,India</h6>
+                                </div>
+                                <img src="/assets/map.JPG" alt="map">
+                            </div>
+                            <div class="social-media">
+                                <a href="https://instagram.com/_rohitsurwade_"><ion-icon class="logo" style="height: 20px;" name="logo-instagram"></ion-icon></a>
+                                <a href="https://www.linkedin.com/in/rohitsurwade2003"><ion-icon class="logo" style="height: 20px;" name="logo-linkedin"></ion-icon></a>
+                                <a href=""><ion-icon class="logo" style="height: 20px;" name="logo-facebook"></ion-icon></a>
+                                <a href=""><ion-icon class="logo" style="height: 20px;" name="logo-github"></ion-icon></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="container">
+                <div class="left-card">
+                    <div class="card-title">
+                        <h6>Portfolio</h6>
+                        <p class="link" id="popupLink">See All</p>
+
+                        <!-- Popup and overlay -->
+                        <div class="popup" id="portfolioPopup">
+                            <!-- Portfolio content goes here -->
+                            <div class="portfolio-section">
+                                <h2>Portfolio</h2>
+                                <!-- <p></p> -->
+                                <div class="portfolio-work">
+                                    <div class="portfolio" style="background-image: url(/assets/1.png);background-size: cover;"></div>
+                                    <div class="portfolio" style="background-image: url(/assets/2.png);background-size: cover;"></div>
+                                    <div class="portfolio" style="background-image: url(/assets/3.png);background-size: cover;"></div>
+                                </div>
+                                <div class="portfolio-work">
+                                    <div class="portfolio" style="background-image: url(/assets/1.png);background-size: cover;"></div>
+                                    <div class="portfolio" style="background-image: url(/assets/2.png);background-size: cover;"></div>
+                                    <div class="portfolio" style="background-image: url(/assets/3.png);background-size: cover;"></div>
+                                </div>
+                            </div>
+                            <button class="close" onclick="closePopup()">&times;</button>
+                        </div>
+                        <div class="overlay" id="overlay"></div>
+
+                    </div>
+                    <div class="work">
+                        <div class="portfolio" style="background-image: url(/assets/1.png);background-size: cover;"></div>
+                        <div class="portfolio" style="background-image: url(/assets/2.png);background-size: cover;"></div>
+                        <div class="portfolio" style="background-image: url(/assets/3.png);background-size: cover;"></div>
+                    </div>
+                </div>
+                <div class="right-card">
+                    <div class="card-title">
+                        <h6>About me</h6>
+                        <p><a href="https://drive.google.com/file/d/1TLMop1DdIqjEZMZFxtgF15OjotUB1W7l/view?usp=share_link">Resume</a></p>
+                    </div>
+                    <div class="content">
+                        <p>
+                            I'm a front-end developer passionate about creating beautiful and functional web
+                            experiences. With a strong foundation in HTML, CSS, and JavaScript, I collaborate closely
+                            with designers and developers to build high-quality sites. Always striving to stay up to
+                            date with the latest trends, I am dedicated to creating clean, efficient code that delivers
+                            seamless user experiences.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="container">
+                <div class="details">
+                    <h3></h3>
+                </div>
+            </div>
+        </section>
+
+    </main>
+    <script>
+        // Open the popup
+        function openPopup() {
+            document.getElementById("portfolioPopup").style.display = "block";
+            document.getElementById("overlay").style.display = "block";
+        }
+
+        // Close the popup
+        function closePopup() {
+            document.getElementById("portfolioPopup").style.display = "none";
+            document.getElementById("overlay").style.display = "none";
+        }
+
+        // Add event listener to the text link
+        document.getElementById("popupLink").addEventListener("click", openPopup);
+    </script>
+</body>
+
+</html>
